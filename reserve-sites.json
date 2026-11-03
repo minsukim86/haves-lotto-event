@@ -1,0 +1,12 @@
+﻿[
+  { "name": "haves-lotto-event", "url": "https://haves-lotto-event.vercel.app/" },
+  { "name": "haves-evt-01", "url": "https://haves-evt-01.vercel.app/" },
+  { "name": "haves-evt-02", "url": "https://haves-evt-02.vercel.app/" },
+  { "name": "haves-evt-03", "url": "https://haves-evt-03.vercel.app/" },
+  { "name": "haves-evt-04", "url": "https://haves-evt-04.vercel.app/" },
+  { "name": "haves-open-01", "url": "https://haves-open-01.vercel.app/" },
+  { "name": "haves-open-02", "url": "https://haves-open-02.vercel.app/" },
+  { "name": "haves-gift-01", "url": "https://haves-gift-01.vercel.app/" },
+  { "name": "haves-gift-02", "url": "https://haves-gift-02.vercel.app/" },
+  { "name": "haves-ticket-01", "url": "https://haves-ticket-01.vercel.app/" }
+]

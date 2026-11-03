@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b1c2e">
+<title>HAVES — 회원가입 환영·추천 이벤트 | Vietlott</title>
+<meta name="description" content="HAVES 회원가입 환영 무료 로또 지원 · 지인추천 추가 혜택. 베트남 Vietlott POWER·MEGA.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="HAVES 회원가입 환영·추천 이벤트">
+<meta property="og:description" content="가입 회원 로또 구매 무료 지원 · 추천 시 추가 지급">
+<meta property="og:image" content="assets/hero.jpg">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Noto+Sans+KR:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="stage" aria-hidden="true">
+    <img class="stage__img" src="assets/hero.jpg" alt="">
+    <div class="stage__veil"></div>
+    <div class="stage__grain"></div>
+  </div>
+
+  <main class="page">
+    <section class="hero">
+      <img class="hero__logo" src="assets/logo.svg" alt="HAVES" width="180" height="40">
+      <div class="hero__visual" aria-hidden="true"></div>
+      <div class="hero__copy">
+        <p class="hero__kicker" data-bind="kicker">WELCOME · REFERRAL EVENT</p>
+        <h1 class="hero__title" data-bind="headline">회원가입 환영<br>무료 로또 이벤트</h1>
+        <p class="hero__sub" data-bind="subline">가입하면 구매 지원 · 추천하면 추가 혜택</p>
+        <a class="cta" data-cta href="https://haveslotto.com/" rel="noopener">
+          <span data-bind="ctaLabel">지금 참여하기</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <p class="hero__hint" data-bind="ctaHint">haveslotto.com 으로 이동합니다</p>
+      </div>
+    </section>
+
+    <section class="events" aria-label="진행 중 이벤트">
+      <article class="event event--open">
+        <p class="event__tag">WELCOME</p>
+        <h2>회원가입 환영 이벤트</h2>
+        <p class="event__lead">가입 회원 로또 구매 무료 지원</p>
+        <p class="event__prize"><strong>1장 무료</strong> <em>(1줄)</em></p>
+      </article>
+
+      <article class="event event--ref">
+        <p class="event__tag">REFERRAL</p>
+        <h2>지인추천 이벤트</h2>
+        <p class="event__lead">친구 1명 가입·이용 시 피추천인에게 추가 지급</p>
+        <p class="event__prize"><strong>6줄 추가</strong> <em>(1장)</em></p>
+        <p class="event__meta">포인트 지급 · 출금 불가 · 로또 구매 전용</p>
+      </article>
+    </section>
+
+    <section class="bottom">
+      <a class="cta cta--wide" data-cta href="https://haveslotto.com/" rel="noopener">
+        <span data-bind="ctaLabel">지금 참여하기</span>
+      </a>
+      <p class="foot">HAVES · Vietnam Lottery · Official site haveslotto.com</p>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
