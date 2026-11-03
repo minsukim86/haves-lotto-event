@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200" role="img" aria-label="LOTTO 5/35">
+  <defs>
+    <linearGradient id="gBall" x1="0.18" y1="0" x2="0.82" y2="1">
+      <stop offset="0%" stop-color="#d4f25a"/>
+      <stop offset="40%" stop-color="#6ecb22"/>
+      <stop offset="100%" stop-color="#0a6e16"/>
+    </linearGradient>
+    <linearGradient id="gLotto" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8ef3f"/>
+      <stop offset="50%" stop-color="#7ed321"/>
+      <stop offset="100%" stop-color="#2fa012"/>
+    </linearGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#083a0c" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="560" height="200" fill="none"/>
+
+  <!-- accent balls -->
+  <circle cx="300" cy="36" r="15" fill="#3aa0ff"/>
+  <circle cx="294" cy="30" r="5" fill="#fff" opacity="0.5"/>
+  <circle cx="328" cy="26" r="12" fill="#ffd400"/>
+  <circle cx="324" cy="21" r="4" fill="#fff" opacity="0.55"/>
+  <circle cx="352" cy="40" r="10" fill="#ff7a1a"/>
+  <circle cx="348" cy="36" r="3.5" fill="#fff" opacity="0.5"/>
+
+  <!-- Lotto word -->
+  <text x="18" y="122" font-family="Arial Black, Helvetica, sans-serif" font-size="92" font-weight="900" font-style="italic"
+        letter-spacing="-2" fill="url(#gLotto)" stroke="#ffffff" stroke-width="6" paint-order="stroke fill" filter="url(#soft)">Lotto</text>
+
+  <text x="28" y="158" font-family="Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="1.4" fill="#1a7a18">XỔ SỐ TỰ CHỌN</text>
+
+  <!-- green 5/35 ball (official style) -->
+  <g filter="url(#soft)">
+    <circle cx="455" cy="102" r="78" fill="url(#gBall)" stroke="#f0ffb0" stroke-width="4"/>
+    <ellipse cx="430" cy="72" rx="22" ry="14" fill="#fff" opacity="0.3"/>
+    <path d="M498 58 l5 10.2 11.2 1.6 -8.1 7.9 1.9 11.1 -10-5.3 -10 5.3 1.9-11.1 -8.1-7.9 11.2-1.6 z" fill="#fff" opacity="0.92"/>
+    <text x="418" y="130" font-family="Arial Black, Helvetica, sans-serif" font-size="92" font-weight="900" fill="#fff">5</text>
+    <text x="468" y="148" font-family="Arial Black, Helvetica, sans-serif" font-size="30" font-weight="900" fill="#fff">/35</text>
+  </g>
+</svg>
