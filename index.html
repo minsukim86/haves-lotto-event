@@ -26,8 +26,21 @@
 
   <main class="page">
     <section class="hero">
-      <img class="hero__logo" src="assets/logo.svg" alt="HAVES" width="180" height="40">
-      <div class="hero__visual" aria-hidden="true"></div>
+      <div class="hero__top">
+        <img class="hero__logo" src="assets/logo.svg" alt="HAVES" width="180" height="40">
+        <img class="hero__badge" src="assets/vietlott-badge.svg" alt="VIETLOTT" width="148" height="34">
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <img class="hero__shot" src="assets/hero.jpg" alt="">
+        <img class="hero__balls" src="assets/lotto-balls.svg" alt="">
+        <div class="hero__chips">
+          <span>POWER 6/55</span>
+          <span>MEGA 6/45</span>
+          <span>LIVE DRAW</span>
+        </div>
+      </div>
+
       <div class="hero__copy">
         <p class="hero__kicker" data-bind="kicker">WELCOME · REFERRAL EVENT</p>
         <h1 class="hero__title" data-bind="headline">회원가입 환영<br>무료 로또 이벤트</h1>
@@ -44,6 +57,10 @@
 
     <section class="events" aria-label="진행 중 이벤트">
       <article class="event event--open">
+        <div class="event__art" aria-hidden="true">
+          <span class="orb orb--gold"></span>
+          <span class="orb orb--blue"></span>
+        </div>
         <p class="event__tag">WELCOME</p>
         <h2>회원가입 환영 이벤트</h2>
         <p class="event__lead">가입 회원 로또 구매 무료 지원</p>
@@ -51,6 +68,10 @@
       </article>
 
       <article class="event event--ref">
+        <div class="event__art" aria-hidden="true">
+          <span class="orb orb--amber"></span>
+          <span class="orb orb--soft"></span>
+        </div>
         <p class="event__tag">REFERRAL</p>
         <h2>지인추천 이벤트</h2>
         <p class="event__lead">친구 1명 가입·이용 시 피추천인에게 추가 지급</p>
@@ -63,7 +84,7 @@
       <a class="cta cta--wide" data-cta href="https://haveslotto.com/" rel="noopener">
         <span data-bind="ctaLabel">지금 참여하기</span>
       </a>
-      <p class="foot">HAVES · Vietnam Lottery · Official site haveslotto.com</p>
+      <p class="foot">HAVES · Vietlott Vietnam · haveslotto.com</p>
     </section>
   </main>
 
